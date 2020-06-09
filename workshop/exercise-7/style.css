@@ -17,3 +17,57 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+* {
+  font-family: 'Bangers', cursive;
+}
+
+body {
+  max-width: 850px;
+  margin-left: 10%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+h3 {
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 70px;
+}
+
+.categorie > li {
+  background-color: lightgrey;
+  border: grey dashed 1px;
+  padding: 10px;
+  margin: 10px;  
+}
+
+
+.row {
+  list-style: none;
+  display: flex;  
+}
+
+.row li{
+  display: flex;
+  flex-direction: column;
+}
+
+
+img {
+  height: 100px;
+  padding: 0.2em;
+  border-radius: 8px;
+}
