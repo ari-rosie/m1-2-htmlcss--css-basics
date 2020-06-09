@@ -1,3 +1,7 @@
+.container {
+  position: relative;
+}
+
 img {
   max-width: 300px;
 }
@@ -6,10 +10,21 @@ img {
 }
 
 .img2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .img3 {
+  position: absolute;
+  top: 50%;
+  left:50%;
 }
 
 .img4 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
+
